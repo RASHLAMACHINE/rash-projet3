@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.473);
+    padding: 10px;
+}
+
+.header a {
+    color: rgba(28, 218, 123, 0.74);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    background-color: #abbccc88;
+}
+
+.search-bar input{
+    padding-top: 5px;
+    margin-top: 0 12px ;
+}
+
+.rangu img {
+    width: 100%;
+    height: auto;
+}
+
+.services {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-item, .Ventes-item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+
+.services-item img, .Ventes-item img {
+    width: 100%;
+    height: auto;
+}
+
+.Plus {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Plus button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Plus button:hover {
+  text-align: center;
+  margin:20PX ;
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.client {
+    padding: 0 10;
+    margin: 10px 0;
+    background-color: #ebebeb;
+}
+.footer-plus{
+display: flex;
+flex-direction: row;
+margin:center ;
+}
+.meilleurs-ventes{
+    text-align: center;
+   margin-bottom: 0 12px;
+   }
